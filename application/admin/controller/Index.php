@@ -5,7 +5,7 @@ namespace app\admin\controller;
 use think\Controller;
 class Index extends Controller{
 
-    public function add(){
+    public function index(){
         return $this->fetch();
     }
 }
